@@ -93,9 +93,7 @@ RustGIS 會自動把資料**重新投影**到地圖的坐標系統。狀態列�
 
 ## 右下角出現的英文訊息
 
-開啟這份 ZIP 檔時，右下角會跳出兩則英文訊息，狀態列也會顯示。兩則都**不影響使用**。
-
-**1. 略過了不支援的檔案**
+開啟這份 ZIP 檔時，右下角會跳出一則英文訊息，狀態列也會顯示。它**不影響使用**：
 
 ```text
 直轄市、縣(市)界線1140318.zip: skipped COUNTY_MOI_1140318.shp.xml (unsupported file type: xml); …
@@ -105,15 +103,8 @@ ZIP 檔裡除了 Shapefile，還有詮釋資料（`.xml`）和一份修正清單
 
 修正清單的中文檔名可能顯示成亂碼（例如 `�y��M��_11403.xlsx`）。這是因為 ZIP 檔裡的檔名用的是舊的 Big5 編碼，不影響縣市資料。
 
-**2. 坐標系統的提醒**
-
-```text
-the .prj file: the datum D_TWD_1997 has no conversion to WGS 84 in the file, so positions may be off by up to a few hundred metres
-```
-
-意思是 `.prj` 檔沒有寫 TWD97 換算到 WGS 84 的參數，所以 RustGIS 提醒位置可能有誤差。不過 TWD97 和 WGS 84 本來就幾乎重合，一般地圖用途的差距不到 1 公尺，**可以放心使用**。
-
-我們已經向 RustGIS 提出[修正](https://github.com/opengeos/RustGIS/pull/2141)，合併後就不會再出現這則提醒。
+!!! note "以前還有一則坐標系統的提醒"
+    以前開啟這份資料時，還會出現「the datum D_TWD_1997 has no conversion to WGS 84」的提醒，說位置可能有幾百公尺的誤差。其實 TWD97 和 WGS 84 幾乎重合，差距不到 1 公尺。本站作者向 RustGIS 提出了[修正](https://github.com/opengeos/RustGIS/pull/2141)，已在 2026 年 11 月合併，現在不會再出現這則提醒。
 
 ## 小結
 
