@@ -1,6 +1,6 @@
 [project]
-site_name = "RustGIS 台灣社群"
-site_description = "RustGIS 的繁體中文教學與台灣範例資料"
+site_name = "RustGIS 臺灣社群"
+site_description = "RustGIS 的繁體中文教學與臺灣範例資料"
 site_author = "begin0808"
 site_url = "https://begin0808.github.io/RustGIS-TW/"
 repo_url = "https://github.com/begin0808/RustGIS-TW"
@@ -19,7 +19,7 @@ nav = [
     "tutorials/05-buffer.md",
     "tutorials/06-export-map.md",
   ] },
-  { "台灣範例資料" = "data/index.md" },
+  { "臺灣範例資料" = "data/index.md" },
   { "關於本站" = "about.md" },
   { "RustGIS 網頁版" = "https://web.rustgis.app" },
   { "RustGIS 官方文件（英文）" = "https://rustgis.app" },
