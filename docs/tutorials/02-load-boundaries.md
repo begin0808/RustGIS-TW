@@ -110,7 +110,7 @@ the .prj file: the datum D_TWD_1997 has no conversion to WGS 84 in the file, so 
 
 - Shapefile 是一組檔案，可以直接用 ZIP 檔開啟。
 - **常用 › 新增資料** 可以開啟資料，也可以把檔案拖到地圖上。
-- TWD97 經緯度（EPSG:3824）以度為單位；要量距離時，會改用以公尺為單位的 TWD97 二度分帶（EPSG:3826），第 5 課會用到。
+- TWD97 經緯度（EPSG:3824）以度為單位；測量、地籍等需要公尺的工作，常用 TWD97 二度分帶（EPSG:3826）。
 
 ## 資料來源
 
