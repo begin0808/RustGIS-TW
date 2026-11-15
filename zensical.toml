@@ -6,6 +6,7 @@ site_url = "https://begin0808.github.io/RustGIS-TW/"
 repo_url = "https://github.com/begin0808/RustGIS-TW"
 repo_name = "begin0808/RustGIS-TW"
 copyright = "教學內容採用 CC BY 4.0 授權；範例資料依各提供機關的授權條款"
+extra_javascript = ["javascripts/external-links.js"]
 
 nav = [
   { "首頁" = "index.md" },
