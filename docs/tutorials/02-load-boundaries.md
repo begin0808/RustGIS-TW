@@ -50,6 +50,11 @@
 
 ![放大到台灣後的縣市界線](../images/02-county.webp)
 
+!!! warning "縣市界線和底圖的海岸線好像沒對齊？"
+    放大後，縣市界線的邊緣和底圖的陸地可能差了幾公里。這不是資料的問題：範例專案的底圖是 Natural Earth 的全世界小比例尺輪廓，台灣只用很少的點描出來，本來就畫得很粗略。
+
+    想對照位置的話，可以換成詳細的底圖：按 **常用 › 底圖**，在「Web 底圖」選 **OpenFreeMap Positron** 或 **OpenFreeMap Liberty**。這些底圖來自 OpenStreetMap，放大到鄉鎮也會和縣市界線吻合。
+
 ## 看看屬性表
 
 在圖層面板點選 `COUNTY_MOI_1140318`，再按 **常用 › 選取 › 屬性**，下方會出現屬性表：
@@ -97,7 +102,7 @@ ZIP 檔裡除了 Shapefile，還有詮釋資料（`.xml`）和一份修正清單
 the .prj file: the datum D_TWD_1997 has no conversion to WGS 84 in the file, so positions may be off by up to a few hundred metres
 ```
 
-意思是 `.prj` 檔沒有寫 TWD97 換算到 WGS 84 的參數，所以 RustGIS 提醒位置可能有誤差。不過 TWD97 和 WGS 84 本來就幾乎重合，一般地圖用途的差距不到 1 公尺，**可以放心使用**。從上面的截圖也看得出來，縣市界線和範例底圖的台灣輪廓是對齊的。
+意思是 `.prj` 檔沒有寫 TWD97 換算到 WGS 84 的參數，所以 RustGIS 提醒位置可能有誤差。不過 TWD97 和 WGS 84 本來就幾乎重合，一般地圖用途的差距不到 1 公尺，**可以放心使用**。
 
 我們已經向 RustGIS 提出[修正](https://github.com/opengeos/RustGIS/pull/2141)，合併後就不會再出現這則提醒。
 
