@@ -73,7 +73,7 @@
 
 4. 下方出現 **有效運算式 · 9 個符合列**，表示條件寫對了，有 9 筆符合。按 **套用**。
 
-![依屬性選取對話框，條件是 COUNTYNAME LIKE '%市'](../images/03-select-by-attributes.webp)
+![依屬性選取對話框，條件是 COUNTYNAME LIKE '%市'](../images/03-select-by-attributes.webp){ width="480" }
 
 條件的意思是：
 
