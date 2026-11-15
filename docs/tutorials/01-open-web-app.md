@@ -19,7 +19,12 @@
 如果瀏覽器的語言是繁體中文（台灣），RustGIS 會自動顯示繁體中文。若畫面是英文，可以這樣切換：
 
 1. 點上方的 **Settings** 頁籤。
-2. 在 **Language** 群組，點語言選單，選 **繁體中文（台灣）**。
+2. 在 **Language** 群組，點語言按鈕（上面寫著「Automatic (English)」）。
+3. 在選單中選 **Chinese (Traditional, Taiwan)**。
+
+    英文介面下，選單裡的語言名稱也是英文，所以要找「Chinese (Traditional, Taiwan)」，不是「繁體中文」。
+
+![英文介面的語言選單，選 Chinese (Traditional, Taiwan)](../images/01-language-menu-en.webp)
 
 第一次切換時，網頁版會下載一套台灣標準字形的字型（約 5.7 MB），等幾秒就會換好。
 
