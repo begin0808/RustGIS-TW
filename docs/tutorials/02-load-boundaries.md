@@ -99,7 +99,7 @@ the .prj file: the datum D_TWD_1997 has no conversion to WGS 84 in the file, so 
 
 意思是 `.prj` 檔沒有寫 TWD97 換算到 WGS 84 的參數，所以 RustGIS 提醒位置可能有誤差。不過 TWD97 和 WGS 84 本來就幾乎重合，一般地圖用途的差距不到 1 公尺，**可以放心使用**。從上面的截圖也看得出來，縣市界線和範例底圖的台灣輪廓是對齊的。
 
-我們已經向 RustGIS 提出修正，之後的版本就不會再出現這則提醒。
+我們已經向 RustGIS 提出[修正](https://github.com/opengeos/RustGIS/pull/2141)，合併後就不會再出現這則提醒。
 
 ## 小結
 
