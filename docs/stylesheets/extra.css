@@ -1,0 +1,51 @@
+/* Noto Sans TC for Chinese text: Inter keeps the Latin letters and digits, and the browser
+   falls back to Noto Sans TC for the characters Inter doesn't have. Google Fonts splits the
+   font by character range, so a page downloads only the parts its text uses. */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap");
+
+:root {
+  --md-text-font: "Inter", "Noto Sans TC";
+}
+
+/* Screenshots open larger on click (javascripts/lightbox.js). */
+.md-typeset img.rgtw-zoomable {
+  cursor: zoom-in;
+}
+
+.rgtw-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vmin;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: zoom-out;
+}
+
+.rgtw-lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.rgtw-lightbox figcaption {
+  position: absolute;
+  bottom: 1.2vmin;
+  left: 0;
+  right: 0;
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* "Report a mistake on this page" link at the end of each page (javascripts/errata.js). */
+.md-typeset .rgtw-errata {
+  margin-top: 2.5em;
+  padding-top: 0.8em;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+}
