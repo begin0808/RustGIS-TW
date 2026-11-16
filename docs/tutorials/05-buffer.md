@@ -85,7 +85,7 @@
 
 3. 按 **執行**。
 
-結果顯示「Selected 4 features in COUNTY_MOI_1140318」，地圖上有 4 個縣市被選取：
+結果顯示「Selected 4 features in COUNTY_MOI_1140318」（分析工具的結果訊息目前還是英文，意思是「在 COUNTY_MOI_1140318 選取了 4 個圖徵」），地圖上有 4 個縣市被選取：
 
 ![碰到環域的 4 個縣市被選取](../images/05-sbl-result.webp)
 
