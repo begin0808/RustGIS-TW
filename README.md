@@ -35,7 +35,7 @@ RustGIS 是一套免費、開放原始碼的地理資訊系統（GIS），打開
 ### 參考資料
 
 - [臺灣範例資料](https://begin0808.github.io/RustGIS-TW/data/)：行政區界、點位、統計、地形網格、WMTS，附來源和授權。
-- [GIS 術語對照表](https://begin0808.github.io/RustGIS-TW/glossary/)：臺灣用語、英文、中國大陸用語對照。
+- [GIS 術語對照表](https://begin0808.github.io/RustGIS-TW/glossary/)：臺灣用語和英文對照。
 - [常見問題](https://begin0808.github.io/RustGIS-TW/faq/)：網頁版和桌面版的差別、檔案大小、中文亂碼、匯出問題等。
 
 ## 特色
