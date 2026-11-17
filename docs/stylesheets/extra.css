@@ -49,3 +49,29 @@
   color: var(--md-default-fg-color--light);
   font-size: 0.7rem;
 }
+
+/* "I finished this lesson" checkbox (javascripts/progress.js). */
+.md-typeset .rgtw-progress {
+  margin-top: 2em;
+  padding: 0.6em 0.9em;
+  border-radius: 0.3em;
+  background: var(--md-code-bg-color);
+  font-size: 0.75rem;
+}
+
+.md-typeset .rgtw-progress input {
+  margin-right: 0.3em;
+  vertical-align: middle;
+}
+
+/* Glossary filter box (javascripts/glossary-filter.js). */
+.md-typeset .rgtw-filter input {
+  width: 100%;
+  max-width: 28rem;
+  padding: 0.5em 0.7em;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3em;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+}

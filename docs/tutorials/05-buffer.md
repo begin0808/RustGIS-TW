@@ -2,8 +2,8 @@
 
 這一課會畫出臺北市周圍 10 公里的範圍，再找出哪些縣市碰到這個範圍。
 
-**需要的時間**：約 20 分鐘
-**需要的東西**：完成[第 2 課](02-load-boundaries.md)，在 RustGIS 開好 `COUNTY_MOI_1140318` 圖層，底圖換成 OpenFreeMap Positron，並取消勾選 **Countries** 圖層。會用到[第 3 課](03-attribute-table.md)的「依屬性選取」。
+- **需要的時間**：約 20 分鐘
+- **需要的東西**：完成[第 2 課](02-load-boundaries.md)，在 RustGIS 開好 `COUNTY_MOI_1140318` 圖層，底圖換成 OpenFreeMap Positron，並取消勾選 **Countries** 圖層。會用到[第 3 課](03-attribute-table.md)的「依屬性選取」。如果關掉過網頁，用 **開啟專案** 打開[第 2 課存的專案檔](02-load-boundaries.md#save-project)。
 
 ## 環域是什麼？
 

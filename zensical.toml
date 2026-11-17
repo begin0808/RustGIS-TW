@@ -11,6 +11,8 @@ extra_javascript = [
   "javascripts/external-links.js",
   "javascripts/lightbox.js",
   "javascripts/errata.js",
+  "javascripts/glossary-filter.js",
+  "javascripts/progress.js",
 ]
 
 nav = [
@@ -25,6 +27,10 @@ nav = [
     "tutorials/06-export-map.md",
   ] },
   { "臺灣範例資料" = "data/index.md" },
+  { "參考資料" = [
+    "glossary.md",
+    "faq.md",
+  ] },
   { "關於本站" = "about.md" },
   { "RustGIS 網頁版" = "https://web.rustgis.app" },
   { "RustGIS 官方文件（英文）" = "https://rustgis.app" },
