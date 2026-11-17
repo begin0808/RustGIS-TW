@@ -117,3 +117,10 @@
   border-left: 0.2rem solid var(--md-accent-fg-color);
   background: var(--md-code-bg-color);
 }
+
+/* "Back to top" stays visible once the page is scrolled well down (javascripts/back-to-top.js). */
+.rgtw-show-top .md-top[hidden] {
+  pointer-events: auto;
+  opacity: 1;
+  transform: translate(-50%);
+}

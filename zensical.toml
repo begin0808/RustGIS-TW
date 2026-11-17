@@ -13,6 +13,7 @@ extra_javascript = [
   "javascripts/errata.js",
   "javascripts/glossary-filter.js",
   "javascripts/progress.js",
+  "javascripts/back-to-top.js",
 ]
 
 nav = [
