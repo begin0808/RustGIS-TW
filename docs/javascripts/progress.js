@@ -74,7 +74,7 @@
     if (!article) return;
     var slug = lessonSlug(location.pathname);
     if (slug) lessonPage(article, slug);
-    else if (/tutorials\/?$/.test(location.pathname)) indexPage(article);
+    else if (/tutorials\/(advanced\/)?$/.test(location.pathname)) indexPage(article);
   }
   if (typeof document$ !== "undefined") {
     document$.subscribe(setup);

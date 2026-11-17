@@ -26,6 +26,10 @@ nav = [
     "tutorials/05-buffer.md",
     "tutorials/06-export-map.md",
   ] },
+  { "進階教學" = [
+    "tutorials/advanced.md",
+    "tutorials/09-wmts.md",
+  ] },
   { "臺灣範例資料" = "data/index.md" },
   { "參考資料" = [
     "glossary.md",
