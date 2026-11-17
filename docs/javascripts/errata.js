@@ -16,7 +16,7 @@
       encodeURIComponent("頁面：" + url + "\n\n哪裡有問題：\n\n建議怎麼改：\n");
     var p = document.createElement("p");
     p.className = "rgtw-errata";
-    p.innerHTML = '發現錯誤或看不懂的地方？<a href="' + issue + '" target="_blank" rel="noopener">回報本頁勘誤</a>（需要 GitHub 帳號）。';
+    p.innerHTML = '發現錯誤或看不懂的地方？<a href="' + issue + '" target="_blank" rel="noopener">回報本頁勘誤</a>（需要 GitHub 帳號；沒有帳號的同學可以請老師代為回報）。';
     article.appendChild(p);
   }
   if (typeof document$ !== "undefined") {

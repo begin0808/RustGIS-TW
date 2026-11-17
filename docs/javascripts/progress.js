@@ -44,8 +44,16 @@
       write(slug, box.checked);
     });
     label.appendChild(box);
-    label.appendChild(document.createTextNode(" 我完成這一課了（記錄在這台電腦的瀏覽器裡，可以在入門教學的課程表看到進度）"));
+    label.appendChild(document.createTextNode(" 我完成這一課了"));
     p.appendChild(label);
+    // Lessons 01-06 are listed on the tutorials index, 07 and up on the advanced page.
+    var basic = parseInt(slug, 10) <= 6;
+    var link = document.createElement("a");
+    link.href = basic ? "../" : "../advanced/";
+    link.textContent = basic ? "入門教學" : "進階教學";
+    p.appendChild(document.createTextNode("（記錄在這台電腦的瀏覽器裡，可以在"));
+    p.appendChild(link);
+    p.appendChild(document.createTextNode("的課程表看到進度）"));
     var errata = article.querySelector(".rgtw-errata");
     article.insertBefore(p, errata);
   }
@@ -74,7 +82,7 @@
     if (!article) return;
     var slug = lessonSlug(location.pathname);
     if (slug) lessonPage(article, slug);
-    else if (/tutorials\/(advanced\/)?$/.test(location.pathname)) indexPage(article);
+    else if (/tutorials(\/advanced)?(\/(index\.html)?)?$/.test(location.pathname)) indexPage(article);
   }
   if (typeof document$ !== "undefined") {
     document$.subscribe(setup);

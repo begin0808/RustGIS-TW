@@ -35,8 +35,8 @@
 
 全臺資料集提供的是一份 CSV 下載清單，裡面有兩種檔案：
 
-- **不分幅＿全台及澎湖**：GeoTIFF 格式，RustGIS 可以直接開啟。ZIP 檔 96 MB，解壓縮後約 376 MB（臺灣本島 371 MB，澎湖另有兩個小檔）。
-- **分幅＿各縣市**：每個縣市一個 ZIP 檔（1～62 MB），裡面是許多 `.grd` 小圖幅。這種格式 RustGIS 網頁版**不能**開啟。
+- **不分幅_全台及澎湖DEM**：GeoTIFF 格式，RustGIS 可以直接開啟。ZIP 檔 96 MB，解壓縮後約 376 MB（臺灣本島 371 MB，澎湖另有兩個小檔）。
+- **分幅_各縣市DEM**（例如「分幅_苗栗縣DEM」）：每個縣市一個 ZIP 檔（1～62 MB），裡面是許多 `.grd` 小圖幅。這種格式 RustGIS 網頁版**不能**開啟。
 
 本站的範例檔從全臺 GeoTIFF 裁出 TWD97 二度分帶 E 221,990～257,990、N 2,580,010～2,612,010 公尺的範圍，數值未經修改。
 
@@ -54,7 +54,7 @@
 
 | 類型 | 格式 |
 |---|---|
-| 向量 | GeoJSON、CSV（含經緯度欄位）、GeoParquet、FlatGeobuf、GeoPackage、Shapefile（壓縮成 ZIP 檔）、KML、GPX |
+| 向量 | GeoJSON、CSV 和 Excel 試算表（含經緯度欄位）、GeoParquet、FlatGeobuf、GeoPackage、Shapefile（壓縮成 ZIP 檔）、KML、GPX |
 | 網格 | GeoTIFF |
 
 - **檔案大小上限**：從電腦開啟的檔案最大 512 MB；從網址開啟的檔案最大 256 MB。

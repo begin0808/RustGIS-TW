@@ -1,4 +1,5 @@
-// Click a screenshot to see it full size; click again or press Esc to close.
+// Click a screenshot to see it full size; click again, press Esc or the × button to close.
+// On a narrow screen a large screenshot opens wider than the screen, to scroll sideways.
 (function () {
   function close() {
     var box = document.querySelector(".rgtw-lightbox");
@@ -17,12 +18,22 @@
     var big = document.createElement("img");
     big.src = img.currentSrc || img.src;
     big.alt = img.alt;
-    box.appendChild(big);
-    if (img.alt) {
-      var cap = document.createElement("figcaption");
-      cap.textContent = img.alt;
-      box.appendChild(cap);
+    var narrow = window.innerWidth < 700 && img.naturalWidth > window.innerWidth * 1.5;
+    if (narrow) {
+      box.classList.add("rgtw-lightbox--pan");
+      big.style.width = Math.min(img.naturalWidth, window.innerWidth * 2.5) + "px";
     }
+    box.appendChild(big);
+    var x = document.createElement("button");
+    x.type = "button";
+    x.className = "rgtw-lightbox__close";
+    x.setAttribute("aria-label", "關閉");
+    x.textContent = "×";
+    box.appendChild(x);
+    var cap = document.createElement("figcaption");
+    cap.textContent =
+      (img.alt ? img.alt + "　" : "") + (narrow ? "（左右滑動看全圖，點一下關閉）" : "（點一下或按 Esc 關閉）");
+    box.appendChild(cap);
     box.addEventListener("click", close);
     document.body.appendChild(box);
     document.addEventListener("keydown", onKey);

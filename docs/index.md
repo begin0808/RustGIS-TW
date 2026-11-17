@@ -43,13 +43,13 @@
 |---|---|---|
 | **開啟各種資料** | Shapefile（含 ZIP）、GeoJSON、KML、GeoPackage、有經緯度的 CSV 和 Excel、GeoTIFF 網格 | [第 2 課](tutorials/02-load-boundaries.md)、[第 8 課](tutorials/08-points.md)、[第 10 課](tutorials/10-terrain.md) |
 | **屬性表與查詢** | 查看、排序、篩選資料；依屬性或位置選取；用運算式計算新欄位 | [第 3 課](tutorials/03-attribute-table.md)、[第 7 課](tutorials/07-choropleth.md) |
-| **符號與標註** | 單一符號、唯一值、分級設色（7 種分級法）；加上文字標註 | [第 4 課](tutorials/04-symbols-labels.md)、[第 7 課](tutorials/07-choropleth.md) |
+| **符號與標註** | 單一符號、唯一值、分級設色（7 種分級法，也可以手動設定級距）；加上文字標註 | [第 4 課](tutorials/04-symbols-labels.md)、[第 7 課](tutorials/07-choropleth.md) |
 | **空間分析** | 環域、融合、裁切、交集、範圍內彙總、連結欄位，還有 1,000 多個進階工具 | [第 5 課](tutorials/05-buffer.md)、[第 8 課](tutorials/08-points.md) |
 | **網格與地形** | 數值地形模型的分層設色、暈渲、坡度、坡向 | [第 10 課](tutorials/10-terrain.md) |
 | **線上圖資** | 加入 WMTS、WMS 等圖資服務，例如國土測繪中心的電子地圖和正射影像 | [第 9 課](tutorials/09-wmts.md) |
 | **圖面配置與輸出** | 加上標題、圖例、比例尺、指北標，匯出 PNG 或 PDF | [第 6 課](tutorials/06-export-map.md) |
 
-RustGIS 還有 3D 地球、時間滑桿、模型建構器、AI 助理、Python 套件等功能，本站之後會陸續介紹。完整功能請見[官方說明](https://rustgis.app)（英文）。
+RustGIS 還有 3D 地球、時間滑桿、模型建置器、AI 助理、Python 套件等功能，本站之後會陸續介紹。完整功能請見[官方說明](https://rustgis.app)（英文）。
 
 ## 對國中、高中地理課有幫助嗎？ { #school }
 
@@ -57,13 +57,14 @@ RustGIS 還有 3D 地球、時間滑桿、模型建構器、AI 助理、Python �
 
 | 學習階段 | 課綱學習內容 | 可以搭配的課 |
 |---|---|---|
-| 國中 | 地 Aa-Ⅳ-1 全球經緯度座標系統 | [第 8 課](tutorials/08-points.md)：用經緯度把地點畫到地圖上 |
+| 國中 | 地 Aa-Ⅳ-1 全球經緯度座標系統 | [第 2 課](tutorials/02-load-boundaries.md)：經緯度和坐標系統；[第 8 課](tutorials/08-points.md)：用經緯度把地點畫到地圖上 |
 | 國中 | 地 Ab-Ⅳ-2 臺灣主要地形的分布與特色 | [第 10 課](tutorials/10-terrain.md)：玉山、阿里山一帶的地形 |
 | 國中 | 地 Ad-Ⅳ-1 臺灣的人口成長與分布 | [第 7 課](tutorials/07-choropleth.md)：各鄉鎮市區的人口密度 |
 | 高中必修 | 地 Ab-Ⅴ-2 地理資訊系統的功能 | [第 3 課](tutorials/03-attribute-table.md)～[第 5 課](tutorials/05-buffer.md)：查詢、套疊、環域 |
 | 高中必修 | 地 Ac-Ⅴ-1 地圖本質與要素、地 Ac-Ⅴ-2 地圖種類及其用途 | [第 6 課](tutorials/06-export-map.md)：標題、圖例、比例尺、指北標 |
 | 高中選修「空間資訊科技」 | 地 Ea-Ⅴ-2 網路圖資服務平台 | [第 9 課](tutorials/09-wmts.md)：國土測繪中心的 WMTS |
-| 高中選修「空間資訊科技」 | 地 Eb-Ⅴ-2 空間資料的分析、地 Eb-Ⅴ-5 繪製主題地圖 | [第 7 課](tutorials/07-choropleth.md)、[第 8 課](tutorials/08-points.md) |
+| 高中選修「空間資訊科技」 | 地 Eb-Ⅴ-2 空間資料的分析 | [第 7 課](tutorials/07-choropleth.md)、[第 8 課](tutorials/08-points.md) |
+| 高中選修「空間資訊科技」 | 地 Eb-Ⅴ-5 問題探究：針對特定地理議題繪製主題地圖，進行議題討論 | [第 7 課](tutorials/07-choropleth.md)、[第 8 課](tutorials/08-points.md)：做出主題地圖，再討論分級法和統計結果 |
 
 在學校使用的好處：
 
@@ -88,7 +89,7 @@ RustGIS 還有 3D 地球、時間滑桿、模型建構器、AI 助理、Python �
 | 使用方式 | 瀏覽器或桌面版 | 桌面版 | 桌面版（只有 Windows） | 瀏覽器 |
 | 資料存放 | 你的電腦 | 你的電腦 | 你的電腦或公司的資料庫 | Esri 的雲端 |
 
-RustGIS 的特色是**網頁版和桌面版是同一套程式**：在學校用瀏覽器學會的操作，換到桌面版也一樣。已經會 QGIS 或 ArcGIS 的人，大部分概念都相通，可以參考 [GIS 術語對照表](glossary.md)。
+RustGIS 的特色是**網頁版和桌面版是同一套程式**：在學校用瀏覽器學會的操作，換到桌面版也一樣。兩者在檔案大小、匯出格式和 Python 外掛等方面有些差別，詳見[常見問題](faq.md#web-or-desktop)。已經會 QGIS 或 ArcGIS 的人，大部分概念都相通，可以參考 [GIS 術語對照表](glossary.md)。
 
 比較內容整理自 RustGIS 官方的[比較頁](https://rustgis.app/comparison/)（英文，2026 年 10 月）。
 

@@ -19,8 +19,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
   padding: 2vmin;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.92);
   cursor: zoom-out;
 }
 
@@ -32,13 +33,47 @@
 }
 
 .rgtw-lightbox figcaption {
-  position: absolute;
+  position: fixed;
   bottom: 1.2vmin;
   left: 0;
   right: 0;
+  padding: 0 3.2rem;
   color: #fff;
   font-size: 0.8rem;
   text-align: center;
+}
+
+.rgtw-lightbox__close {
+  position: fixed;
+  top: 0.6rem;
+  right: 0.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  cursor: pointer;
+}
+
+.rgtw-lightbox__close:hover,
+.rgtw-lightbox__close:focus-visible {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* Phones: the screenshot keeps a readable size and scrolls sideways. */
+.rgtw-lightbox--pan {
+  overflow: auto;
+  justify-content: flex-start;
+  padding: 3.6rem 0 2.6rem;
+}
+
+.rgtw-lightbox--pan img {
+  max-width: none;
+  max-height: none;
+  margin: auto 0;
 }
 
 /* "Report a mistake on this page" link at the end of each page (javascripts/errata.js). */
@@ -74,4 +109,11 @@
   background: var(--md-default-bg-color);
   color: var(--md-default-fg-color);
   font: inherit;
+}
+
+/* "Nothing matches" note under the glossary filter (javascripts/glossary-filter.js). */
+.md-typeset .rgtw-filter-empty {
+  padding: 0.6em 0.8em;
+  border-left: 0.2rem solid var(--md-accent-fg-color);
+  background: var(--md-code-bg-color);
 }
