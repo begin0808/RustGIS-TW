@@ -28,6 +28,7 @@ nav = [
   ] },
   { "進階教學" = [
     "tutorials/advanced.md",
+    "tutorials/07-choropleth.md",
     "tutorials/09-wmts.md",
   ] },
   { "臺灣範例資料" = "data/index.md" },
