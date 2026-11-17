@@ -1,4 +1,4 @@
-# RustGIS 臺灣社群
+# RustGIS 臺灣教學網
 
 [RustGIS](https://rustgis.app) 是一套免費、開放原始碼的地理資訊系統（GIS）。打開瀏覽器就能用，不用安裝、不用註冊帳號；也有 Windows、macOS、Linux 的桌面版。介面已經有**繁體中文（臺灣）**，用詞依照國家教育研究院樂詞網的「地理資訊系統名詞」。
 
@@ -124,4 +124,4 @@ RustGIS 的特色是**網頁版和桌面版是同一套程式**：在學校用�
 </div>
 
 !!! note "本站不是 RustGIS 官方網站"
-    RustGIS 由 [opengeos](https://github.com/opengeos/RustGIS) 開發維護。本站是臺灣使用者自發整理的社群資源，官方說明請見 [rustgis.app](https://rustgis.app)（英文）。
+    RustGIS 由 [opengeos](https://github.com/opengeos/RustGIS) 開發維護。本站是臺灣使用者自發整理的教學資源，官方說明請見 [rustgis.app](https://rustgis.app)（英文）。

@@ -60,7 +60,7 @@ RustGIS 會自動避免標註文字重疊。比例尺太小、縣市面積太小
 
 ### 這是 RustGIS 官方網站嗎？
 
-不是。本站是臺灣使用者整理的社群資源。RustGIS 由 [opengeos](https://github.com/opengeos/RustGIS) 開發，官方說明在 [rustgis.app](https://rustgis.app)（英文）。
+不是。本站是臺灣使用者整理的教學資源。RustGIS 由 [opengeos](https://github.com/opengeos/RustGIS) 開發，官方說明在 [rustgis.app](https://rustgis.app)（英文）。
 
 ### 發現教學有錯誤怎麼辦？
 

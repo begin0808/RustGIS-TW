@@ -1,4 +1,4 @@
-# RustGIS 臺灣社群（RustGIS-TW）
+# RustGIS 臺灣教學網（RustGIS-TW）
 
 [RustGIS](https://github.com/opengeos/RustGIS) 的繁體中文教學與臺灣範例資料。
 

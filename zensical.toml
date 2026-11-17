@@ -1,5 +1,5 @@
 [project]
-site_name = "RustGIS 臺灣社群"
+site_name = "RustGIS 臺灣教學網"
 site_description = "RustGIS 的繁體中文教學與臺灣範例資料"
 site_author = "begin0808"
 site_url = "https://begin0808.github.io/RustGIS-TW/"
