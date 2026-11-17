@@ -124,3 +124,57 @@
   opacity: 1;
   transform: translate(-50%);
 }
+
+/* Footer: licence line, then owner, contact and visit count (overrides/partials/copyright.html). */
+.md-copyright.rgtw-footer {
+  width: 100%;
+  margin: 0;
+  /* Room below for the floating "back to top" and table-of-contents buttons. */
+  padding: 0.8rem 0 4.2rem;
+  font-size: 0.68rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.rgtw-footer__license {
+  color: var(--md-footer-fg-color--lighter);
+}
+
+.rgtw-footer__made {
+  margin-left: 0.6em;
+}
+
+.rgtw-footer__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem 1.2rem;
+  margin-top: 0.3rem;
+  color: var(--md-footer-fg-color--light);
+}
+
+.rgtw-footer__note {
+  font-weight: 700;
+}
+
+.md-copyright.rgtw-footer a.rgtw-footer__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  color: var(--md-footer-fg-color);
+  text-decoration: underline;
+}
+
+.md-copyright.rgtw-footer a.rgtw-footer__fb {
+  text-decoration: none;
+}
+
+.rgtw-footer__visits {
+  font-weight: 700;
+  color: var(--md-footer-fg-color);
+}
+
+.rgtw-footer__visits[hidden] {
+  display: none;
+}

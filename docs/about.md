@@ -8,6 +8,10 @@
 
 RustGIS 介面翻譯的問題，請直接回報到[官方專案](https://github.com/opengeos/RustGIS/issues)，翻譯檔是 `crates/ui-egui/src/i18n/zh-tw.tsv`。
 
+## 瀏覽統計
+
+頁尾的「累計瀏覽人次」由 [GoatCounter](https://www.goatcounter.com/) 統計。它不使用 cookie，也不記錄可以辨識個人的資料。裝了廣告阻擋外掛的讀者可能不會被算到，所以這個數字只是大概的參考。
+
 ## 授權
 
 - 教學文字與圖片：[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh-hant)（CC BY 4.0）。

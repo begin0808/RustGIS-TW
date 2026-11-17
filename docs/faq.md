@@ -64,4 +64,4 @@ RustGIS 會自動避免標註文字重疊。比例尺太小、縣市面積太小
 
 ### 發現教學有錯誤怎麼辦？
 
-每一頁最下面都有「**回報本頁勘誤**」連結，點了會開好一則 GitHub issue，填上哪裡有問題就可以送出（需要 GitHub 帳號；沒有帳號的同學，可以請老師代為回報）。RustGIS 介面翻譯的問題，請回報到[官方專案](https://github.com/opengeos/RustGIS/issues)。
+每一頁最下面都有「**回報本頁勘誤**」連結，點了會開好一則 GitHub issue，填上哪裡有問題就可以送出（需要 GitHub 帳號）。沒有帳號的話，也可以按頁尾的「寫信給我」。RustGIS 介面翻譯的問題，請回報到[官方專案](https://github.com/opengeos/RustGIS/issues)。

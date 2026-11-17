@@ -14,6 +14,7 @@ extra_javascript = [
   "javascripts/glossary-filter.js",
   "javascripts/progress.js",
   "javascripts/back-to-top.js",
+  "javascripts/visits.js",
 ]
 
 nav = [
