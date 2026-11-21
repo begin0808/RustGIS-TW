@@ -11,5 +11,6 @@
 | [11. 3D 地形](11-3d-terrain.md) | 把玉山變成立體的地形，再鋪上航空照片 | 地形、傾斜與旋轉、高度誇大、地形剖塊圖 |
 | [12. 時間滑桿](12-time-slider.md) | 讓臺灣十年來的地震隨時間出現在地圖上 | 時間滑桿、比例型符號、板塊與地震 |
 | [13. 模型建置器](13-model-builder.md) | 把第 5 課的環域分析串成流程，換個縣市就能重複使用 | 模型建置器、匯出圖徵、輸出、模型的儲存與分享 |
+| [14. Python 套件](14-python.md) | 在 Google Colab 用 Python 一次分析 22 個縣市，再畫成地圖 | rustgis 套件、迴圈、簡化、Colab |
 
 想學其他主題，歡迎到 [GitHub](https://github.com/begin0808/RustGIS-TW/issues) 告訴我們。

@@ -6,11 +6,13 @@
 
 | 資料 | 提供機關 | 格式 | 坐標系統 | 用在 | 來源 |
 |---|---|---|---|---|---|
-| 直轄市、縣市界線 | 內政部國土測繪中心 | Shapefile | TWD97 經緯度 | 第 2～6 課 | [政府資料開放平臺 7442](https://data.gov.tw/dataset/7442) |
+| 直轄市、縣市界線 | 內政部國土測繪中心 | Shapefile | TWD97 經緯度 | 第 2～6、13、14 課 | [政府資料開放平臺 7442](https://data.gov.tw/dataset/7442)；[本站備份（1140318 版）](files/COUNTY_MOI_1140318.zip) |
 | 鄉鎮市區界線 | 內政部國土測繪中心 | Shapefile | TWD97 經緯度 | 第 7 課 | [政府資料開放平臺 7441](https://data.gov.tw/dataset/7441) |
 | 村里界 | 內政部國土測繪中心 | Shapefile | TWD97 經緯度 | 自行練習 | [政府資料開放平臺 7438](https://data.gov.tw/dataset/7438) |
 
 這三份資料都是 ZIP 檔，在 RustGIS 用 **常用 › 新增資料** 直接開啟，不用解壓縮（見[第 2 課](../tutorials/02-load-boundaries.md)）。
+
+本站備份的縣市界線是撰寫教學時的 1140318 版，只保留 Shapefile 的必要檔案，給[第 14 課](../tutorials/14-python.md)的 Colab 筆記本直接下載使用。要最新版本，請到政府資料開放平臺下載。
 
 ## 點位資料
 

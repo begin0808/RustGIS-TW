@@ -37,6 +37,7 @@ nav = [
     "tutorials/11-3d-terrain.md",
     "tutorials/12-time-slider.md",
     "tutorials/13-model-builder.md",
+    "tutorials/14-python.md",
   ] },
   { "臺灣範例資料" = "data/index.md" },
   { "參考資料" = [
