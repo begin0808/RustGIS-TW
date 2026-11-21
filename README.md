@@ -32,6 +32,7 @@ RustGIS 是一套免費、開放原始碼的地理資訊系統（GIS），打開
 | [9. 國土測繪中心電子地圖](https://begin0808.github.io/RustGIS-TW/tutorials/09-wmts/) | 用 WMTS 加入臺灣通用電子地圖和正射影像 |
 | [10. 地形分析](https://begin0808.github.io/RustGIS-TW/tutorials/10-terrain/) | 玉山一帶的數值地形模型、暈渲、坡度 |
 | [11. 3D 地形](https://begin0808.github.io/RustGIS-TW/tutorials/11-3d-terrain/) | 立體地形、傾斜與旋轉、高度誇大、地形剖塊圖、立體航照 |
+| [12. 時間滑桿](https://begin0808.github.io/RustGIS-TW/tutorials/12-time-slider/) | 臺灣十年來的地震、比例型符號、依年和月播放 |
 
 ### 參考資料
 

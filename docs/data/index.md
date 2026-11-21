@@ -17,6 +17,7 @@
 | 資料 | 提供機關 | 格式 | 用在 | 來源 |
 |---|---|---|---|---|
 | 臺北捷運車站出入口座標 | 臺北大眾捷運股份有限公司 | CSV（Big5，需轉 UTF-8） | 第 8 課 | [政府資料開放平臺 128428](https://data.gov.tw/dataset/128428) |
+| 臺灣附近的地震（2016～2025 年，規模 4.5 以上，789 筆） | 美國地質調查所（USGS） | CSV（UTF-8） | 第 12 課 | [本站範例檔](files/taiwan-earthquakes-2016-2025.csv)，整理自 [USGS 地震目錄](https://earthquake.usgs.gov/earthquakes/search/)（公共領域） |
 
 ## 統計資料
 
