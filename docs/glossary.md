@@ -38,6 +38,12 @@ RustGIS 的繁體中文介面依國家教育研究院樂詞網的「地理資訊
 | 暈渲地貌 | Shaded Relief |
 | 坡度 | Slope |
 | 坡向 | Aspect |
+| 地形 | Terrain |
+| 垂直誇大（高度誇大） | Vertical Exaggeration |
+| 地形剖塊圖 | Block Diagram |
+| 方位角（地圖畫面朝向） | Bearing |
+| 俯仰角 | Pitch |
+| 正射影像 | Orthophoto |
 | 坐標 | Coordinate |
 | 坐標系統 | Coordinate system |
 | 投影 | Projection |
@@ -56,6 +62,7 @@ RustGIS 的繁體中文介面依國家教育研究院樂詞網的「地理資訊
 | 單一符號 | Single Symbol |
 | 唯一值 | Unique Values |
 | 分級設色 | Graduated Colors |
+| 比例型符號 | Proportional Symbols |
 | 自然分級法 | Natural Breaks (Jenks) |
 | 分位數 | Quantile |
 | 等間隔 | Equal Interval |
@@ -70,6 +77,9 @@ RustGIS 的繁體中文介面依國家教育研究院樂詞網的「地理資訊
 | 圖例 | Legend |
 | 匯入 | Import |
 | 匯出 | Export |
+| 時間滑桿 | Time Slider |
+| 模型建置器 | ModelBuilder |
+| 簡化 | Simplify |
 
 <p id="glossary-empty" class="rgtw-filter-empty" hidden></p>
 
