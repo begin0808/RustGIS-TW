@@ -45,9 +45,9 @@ https://wmts.nlsc.gov.tw/wmts
     | 地址 | `https://wmts.nlsc.gov.tw/wmts` |
     | 群組、登入 | 不用填 |
 
-4. 按 **測試**。下方出現綠色的「**WMTS Taiwan MAP Service：221 個圖層**」，表示連線成功。
+4. 按 **測試**。下方出現綠色的「**WMTS Taiwan MAP Service：222 個圖層**」，表示連線成功。圖層數量會隨國土測繪中心更新而改變，看到的數字不一樣也沒關係。
 
-    ![新增連線對話框，測試成功：221 個圖層](../images/09-connection-form.webp){ width="640" }
+    ![新增連線對話框，測試成功，顯示圖層數量](../images/09-connection-form.webp){ width="640" }
 
 5. 按 **儲存**。
 

@@ -31,6 +31,7 @@ RustGIS 是一套免費、開放原始碼的地理資訊系統（GIS），打開
 | [8. 點位與空間統計](https://begin0808.github.io/RustGIS-TW/tutorials/08-points/) | 捷運出入口 CSV 轉成點、範圍內彙總 |
 | [9. 國土測繪中心電子地圖](https://begin0808.github.io/RustGIS-TW/tutorials/09-wmts/) | 用 WMTS 加入臺灣通用電子地圖和正射影像 |
 | [10. 地形分析](https://begin0808.github.io/RustGIS-TW/tutorials/10-terrain/) | 玉山一帶的數值地形模型、暈渲、坡度 |
+| [11. 3D 地形](https://begin0808.github.io/RustGIS-TW/tutorials/11-3d-terrain/) | 立體地形、傾斜與旋轉、高度誇大、地形剖塊圖、立體航照 |
 
 ### 參考資料
 

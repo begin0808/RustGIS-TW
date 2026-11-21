@@ -45,7 +45,7 @@
 | **屬性表與查詢** | 查看、排序、篩選資料；依屬性或位置選取；用運算式計算新欄位 | [第 3 課](tutorials/03-attribute-table.md)、[第 7 課](tutorials/07-choropleth.md) |
 | **符號與標註** | 單一符號、唯一值、分級設色（7 種分級法，也可以手動設定級距）；加上文字標註 | [第 4 課](tutorials/04-symbols-labels.md)、[第 7 課](tutorials/07-choropleth.md) |
 | **空間分析** | 環域、融合、裁切、交集、範圍內彙總、連結欄位，還有 1,000 多個進階工具 | [第 5 課](tutorials/05-buffer.md)、[第 8 課](tutorials/08-points.md) |
-| **網格與地形** | 數值地形模型的分層設色、暈渲、坡度、坡向 | [第 10 課](tutorials/10-terrain.md) |
+| **網格與地形** | 數值地形模型的分層設色、暈渲、坡度、坡向；立體地形、高度誇大、地形剖塊圖 | [第 10 課](tutorials/10-terrain.md)、[第 11 課](tutorials/11-3d-terrain.md) |
 | **線上圖資** | 加入 WMTS、WMS 等圖資服務，例如國土測繪中心的電子地圖和正射影像 | [第 9 課](tutorials/09-wmts.md) |
 | **圖面配置與輸出** | 加上標題、圖例、比例尺、指北標，匯出 PNG 或 PDF | [第 6 課](tutorials/06-export-map.md) |
 
@@ -58,7 +58,7 @@ RustGIS 還有 3D 地球、時間滑桿、模型建置器、AI 助理、Python �
 | 學習階段 | 課綱學習內容 | 可以搭配的課 |
 |---|---|---|
 | 國中 | 地 Aa-Ⅳ-1 全球經緯度座標系統 | [第 2 課](tutorials/02-load-boundaries.md)：經緯度和坐標系統；[第 8 課](tutorials/08-points.md)：用經緯度把地點畫到地圖上 |
-| 國中 | 地 Ab-Ⅳ-2 臺灣主要地形的分布與特色 | [第 10 課](tutorials/10-terrain.md)：玉山、阿里山一帶的地形 |
+| 國中 | 地 Ab-Ⅳ-2 臺灣主要地形的分布與特色 | [第 10 課](tutorials/10-terrain.md)、[第 11 課](tutorials/11-3d-terrain.md)：玉山、阿里山一帶的地形與立體地形 |
 | 國中 | 地 Ad-Ⅳ-1 臺灣的人口成長與分布 | [第 7 課](tutorials/07-choropleth.md)：各鄉鎮市區的人口密度 |
 | 高中必修 | 地 Ab-Ⅴ-2 地理資訊系統的功能 | [第 3 課](tutorials/03-attribute-table.md)～[第 5 課](tutorials/05-buffer.md)：查詢、套疊、環域 |
 | 高中必修 | 地 Ac-Ⅴ-1 地圖本質與要素、地 Ac-Ⅴ-2 地圖種類及其用途 | [第 6 課](tutorials/06-export-map.md)：標題、圖例、比例尺、指北標 |
@@ -103,7 +103,7 @@ RustGIS 的特色是**網頁版和桌面版是同一套程式**：在學校用�
 
 - **[進階教學](tutorials/advanced.md)**
 
-    人口密度圖、捷運出入口統計、國土測繪中心電子地圖、玉山地形分析。
+    人口密度圖、捷運出入口統計、國土測繪中心電子地圖、玉山地形分析、3D 立體地形。
 
 - **[臺灣範例資料](data/index.md)**
 

@@ -34,6 +34,7 @@ nav = [
     "tutorials/08-points.md",
     "tutorials/09-wmts.md",
     "tutorials/10-terrain.md",
+    "tutorials/11-3d-terrain.md",
   ] },
   { "臺灣範例資料" = "data/index.md" },
   { "參考資料" = [
