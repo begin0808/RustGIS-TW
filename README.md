@@ -33,6 +33,8 @@ RustGIS 是一套免費、開放原始碼的地理資訊系統（GIS），打開
 | [10. 地形分析](https://begin0808.github.io/RustGIS-TW/tutorials/10-terrain/) | 玉山一帶的數值地形模型、暈渲、坡度 |
 | [11. 3D 地形](https://begin0808.github.io/RustGIS-TW/tutorials/11-3d-terrain/) | 立體地形、傾斜與旋轉、高度誇大、地形剖塊圖、立體航照 |
 | [12. 時間滑桿](https://begin0808.github.io/RustGIS-TW/tutorials/12-time-slider/) | 臺灣十年來的地震、比例型符號、依年和月播放 |
+| [13. 模型建置器](https://begin0808.github.io/RustGIS-TW/tutorials/13-model-builder/) | 把環域分析串成流程，換個縣市就能重複使用 |
+| [14. Python 套件](https://begin0808.github.io/RustGIS-TW/tutorials/14-python/) | 在 Google Colab 用 Python 一次分析 22 個縣市（[筆記本](docs/notebooks/14-python.ipynb)） |
 
 ### 參考資料
 
@@ -42,8 +44,8 @@ RustGIS 是一套免費、開放原始碼的地理資訊系統（GIS），打開
 
 ## 特色
 
-- **免安裝**：全部課程都在 [RustGIS 網頁版](https://web.rustgis.app)完成，學校電腦教室不用申請安裝軟體。
-- **臺灣的資料**：用政府資料開放平臺、國土測繪中心的開放資料，例如縣市界、鄉鎮人口、捷運出入口、20 公尺數值地形模型。
+- **免安裝**：第 1～13 課都在 [RustGIS 網頁版](https://web.rustgis.app)完成，第 14 課在 Google Colab 執行，學校電腦教室不用申請安裝軟體。
+- **臺灣的資料**：用政府資料開放平臺、國土測繪中心的開放資料，例如縣市界、鄉鎮人口、捷運出入口、20 公尺數值地形模型，以及美國地質調查所（USGS）的臺灣地震目錄。
 - **對照 108 課綱**：首頁列出國中、高中地理科可以搭配的學習內容，包含高中選修「空間資訊科技」。
 - **實際操作驗證**：每一課的步驟都在網頁版實際做過，課文裡的數字也用原始資料重新算過。
 - **臺灣用語**：圖徵、網格、環域、套疊、坐標……和國內教科書、考試的用詞一致。
@@ -89,14 +91,14 @@ python -m venv .venv
 |---|---|
 | 教學文字與圖片 | [創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh-hant)（CC BY 4.0），全文見 [`LICENSE`](LICENSE)。轉載、改編都可以，請註明出處 |
 | 網站程式碼：`docs/javascripts/`、`docs/stylesheets/`、`overrides/`、`zensical.toml` | MIT 授權，見 [`LICENSE-CODE`](LICENSE-CODE) |
-| 範例資料，例如 `docs/data/files/` 的 DTM 範例檔 | 依各提供機關的授權條款（政府資料開放授權條款），詳見[臺灣範例資料](https://begin0808.github.io/RustGIS-TW/data/) |
+| 範例資料：`docs/data/files/` 的縣市界 ZIP、DTM 範例檔、地震 CSV | 縣市界和 DTM 依政府資料開放授權條款－第 1 版；地震資料整理自 USGS，屬於美國公共領域。詳見[臺灣範例資料](https://begin0808.github.io/RustGIS-TW/data/) |
 
 截圖裡的底圖仍依原本的授權條款，例如國土測繪中心的電子地圖和正射影像、OpenStreetMap 與 OpenFreeMap 的街道圖。轉載這些截圖時，請一併標示底圖來源。RustGIS 的介面截圖依 RustGIS 的 Apache-2.0 授權使用。
 
 ## 致謝
 
 - [RustGIS](https://github.com/opengeos/RustGIS)：由 opengeos 開發維護。本站不是 RustGIS 官方網站。
-- 資料提供機關：內政部國土測繪中心、內政部戶政司、內政部、臺北大眾捷運股份有限公司。
+- 資料提供機關：內政部國土測繪中心、內政部戶政司、內政部、臺北大眾捷運股份有限公司、美國地質調查所（USGS）。
 - 網站由 [Zensical](https://zensical.org/) 建置。
 
 © 2026 [Studio0808 智造實驗室](https://begin0808.github.io/studio0808/)
