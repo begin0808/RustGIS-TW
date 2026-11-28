@@ -33,7 +33,7 @@
 
 ![789 個地震的位置](../images/12-points.webp)
 
-這次 CSV 直接變成點圖層，不用像[第 8 課](08-points.md)那樣做「XY 表轉點」。因為欄位名稱是英文的 `latitude` 和 `longitude`，RustGIS 認得出這兩欄是緯度和經度。
+和[第 8 課](08-points.md)一樣，CSV 直接變成點圖層：欄位名稱 `latitude`、`longitude` 是 RustGIS 認得的緯度、經度欄位名稱。
 
 一眼就看得出來：地震大多集中在**臺灣東部和東部外海**。789 筆裡，有 707 筆（約 9 成）在東經 121 度以東。
 
